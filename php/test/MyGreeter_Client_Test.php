@@ -20,5 +20,7 @@ class MyGreeter_Client_Test extends \PHPUnit_Framework_TestCase
         $this->assertTrue(
             strlen($this->greeter->getGreeting()) > 0
         );
+
+        echo($this->greeter->getGreeting());
     }
 }
